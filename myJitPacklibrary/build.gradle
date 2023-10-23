@@ -40,16 +40,16 @@ dependencies {
     androidTestImplementation 'androidx.test.ext:junit:1.1.5'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
 }
-publishing {
-    publications {
-        maven(MavenPublication) {
-            groupId = 'com.github.Dilshadlgf'
-            artifactId = 'jitpack_demo_dl'
-            version = "1.3"
-
-            pom {
-                description = 'A description of my library'
-            }
-        }
-    }
-}
+//publishing {
+//    publications {
+//        maven(MavenPublication) {
+//            groupId = 'com.github.Dilshadlgf'
+//            artifactId = 'jitpack_demo_dl'
+//            version = "1.3"
+//
+//            pom {
+//                description = 'A description of my library'
+//            }
+//        }
+//    }
+//}
